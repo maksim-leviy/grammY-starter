@@ -1,0 +1,39 @@
+{
+    "name": "mlbb_ru_bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "tsc-watch --onSuccess \"tsx ./src/bot/index.ts\""
+    },
+    "author": "maksim-leviy",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.11.2",
+        "eslint": "^8.56.0",
+        "nodemon": "^3.0.2",
+        "prettier": "^3.2.2",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "@grammyjs/auto-chat-action": "^0.1.1",
+        "@grammyjs/hydrate": "^1.4.1",
+        "@grammyjs/i18n": "^1.0.1",
+        "@grammyjs/parse-mode": "^1.9.0",
+        "@grammyjs/runner": "^2.0.3",
+        "@grammyjs/types": "^3.4.6",
+        "dotenv": "^16.3.1",
+        "fastify": "^4.25.2",
+        "grammy": "^1.20.3",
+        "node-graceful-shutdown": "^1.1.5",
+        "pino": "^8.17.2",
+        "pino-pretty": "^10.3.1",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.7.0",
+        "winston": "^3.11.0",
+        "winston-transport": "^4.6.0",
+        "znv": "^0.4.0",
+        "zod": "^3.22.4"
+    }
+}
